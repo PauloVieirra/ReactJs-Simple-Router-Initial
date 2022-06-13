@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+.containerg{
+    display: flex;
+    width: 100%;
+    height: 87vh;
+    background-color: #0d0d0d;
+     background-size: 100% 90%;
+    margin-bottom: 5vh;
+    margin-top: 8vh;
+}
+
+.sideringtpro{
+    display: flex;
+    width: 50%;
+    margin-top: 10px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(90deg,rgba(170, 170, 170, 0.122), rgba(47, 47, 47, 0.573), rgba(0, 0, 0, 0.573)),url('../../assets/Michael.png') no-repeat;
+    background-size: 100%;
+}
+.imgprof{
+    width: 100%;
+}
+.imglog{
+    width: 20%;
+    height: 20%;
+}
+.numbat{
+    font-size: 2vh;
+}
+.sideleftpro{
+    display: flex;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(90deg,rgba(0, 0, 0, 0.200), rgba(47, 47, 47, 0.573),rgba(170, 170, 170, 0.122));
+}
+
+.profileone{
+    display: flex;
+    width: 100%;
+    height: 35%;
+    background-color: rgba(25, 138, 138, 0);
+}
+.profname{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh;
+    color: aliceblue;
+    width: 35%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0);
+}
+.profintone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    padding-top: 25px;
+    color: aliceblue;
+    font-size: 18px;
+    width: 30%;
+    height: 50%;
+    background-color: rgba(187, 38, 38, 0);
+}
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 15%;
+    border-style:ridge;
+    border-width: 1;
+    border-radius: 15px;
+    border-color: rgba(120, 121, 122, 0.372);
+    background-color: rgba(120, 121, 122, 0.372);
+}
+.folnum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vh;
+}
+.divkey{
+    width: 100%;
+    height: 100%;
+}
+#firstname{
+    display: flex;
+    align-items:flex-end;
+    font-size: 3vh;
+    width: 100%;
+    height: 50%;
+}
+#secondname{
+    display: flex;
+    align-items:flex-end;
+    font-size: 8vh;
+    border-left: 0ch;
+    border-top: 0ch;
+    border-right: 0ch;
+    border-bottom: 1px;
+    border-style: inset;
+    border-color: rgba(240, 248, 255, 0.357);
+    width: 100%;
+}
+
+.profilethow{
+    display: flex;
+    width: 38%;
+    padding:5px;
+    border-left: 0ch;
+    border-top: 0ch;
+    border-right: 0ch;
+    border-bottom: 1px;
+    border-style: inset;
+    border-color: rgba(240, 248, 255, 0.357);
+}
+.divdet{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    margin-left: 20px;
+}
+.divkeyd{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#titlet{
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.383);
+}
+#contt{
+    color: rgba(240, 248, 255, 0.848);
+    font-size: 30px;
+}
+.profilethree{
+    display: flex;
+    width: 100%;
+    height: 35%;
+    background-color: rgba(130, 223, 130, 0);
+}
+.li{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    color: rgba(231, 231, 231, 0.662);
+}
+.lid{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    color: rgba(255, 255, 255, 0.342);
+}
+.ti{
+    padding: 5px;
+}
+.scolt{
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    flex-direction: column;
+    background-color: rgba(53, 52, 52, 0.535);
+    width: 100%;
+    height: 20vh;
+    bottom: 5vh;
+}
+.gener{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 98%;
+    height: 50%;
+    border-width:1px;
+    border-bottom-color:rgba(240, 248, 255, 0.47);
+    border-left-color: rgba(240, 248, 255, 0);
+    border-top-color:rgba(240, 248, 255, 0);
+    border-right-color:rgba(240, 248, 255, 0);
+    border-style:outset;
+}
+.media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.atrib{
+    display: flex;
+    width: 10%;
+    height: 98%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+.r3{
+    color: aquamarine;
+}
+.titlesco{
+    font-size: 11px;
+    color: rgba(240, 248, 255, 0.512);
+}
+.numbersc{
+    font-size: 30px;
+    color: aliceblue;
+}
